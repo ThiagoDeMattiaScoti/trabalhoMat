@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@300;700&display=swap');
+
+:root{
+    --fonte: 'Mukta', sans-serif;
+}
+html{
+    background-color: #006443;
+    font-family: var(--fonte);
+}
+
+body{
+    margin: auto;
+    width: 70%;
+    background-color: #f0f0f0;
+    border-radius: 10px;
+}
+
+h1{
+    text-align: center;
+    font-size: 2.2rem;
+}
+
+.placa{
+    width: 30%;
+    padding-right: 15px;
+    transition: 0.5s;
+}
+
+.placa:hover{
+    width: 50%;
+    transition: 0.5s;
+}
+
+.expl{
+    display: flex;
+    flex-direction: row;
+    font-size: 1rem;
+    font-weight: 700;
+    text-align: justify;
+    padding: 15px;
+}
+
+h2{
+    text-align: center;
+    font-size: 2rem;
+}
+
+.anali{
+    text-align: center;
+    font-weight: 400;
+}
+
+.conta {
+    text-align: center;
+}
+
+.conta2 {
+    text-align: center;
+}
+
+.placa01{
+    align-items: center;
+    margin: auto;
+    display: block;
+}
+
+h3{
+    text-align: center;
+}
+
+.pfc{
+    text-align: justify;
+    align-items: center;
+    margin: 20px;
+    padding: 20px;
+}
